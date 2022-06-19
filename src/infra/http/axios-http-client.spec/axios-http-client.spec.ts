@@ -1,7 +1,8 @@
 import { AxiosHttpClient } from './axios-http-client'
+import { HttpPostParams } from '@/data/protocols/http'
+
 import axios from 'axios'
 import { faker } from '@faker-js/faker'
-import { HttpPostParams } from '@/data/protocols/http'
 
 const fakeBody = {
   city: faker.address.city(),
